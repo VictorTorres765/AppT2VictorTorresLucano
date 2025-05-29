@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AppT2</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="register_prompt">¿No tienes una cuenta? Regístrate aquí</string>
+    <string name="create_account">Crear Nueva Cuenta</string>
+    <string name="confirm_password">Confirmar Contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="login_prompt">¿Ya tienes una cuenta? Inicia sesión</string>
+    <string name="add_pet">Añadir Nueva Mascota</string>
+    <string name="edit_pet">Editar Mascota</string>
+    <string name="pet_name">Nombre</string>
+    <string name="pet_type">Tipo</string>
+    <string name="pet_age">Edad</string>
+    <string name="pet_image">Imagen de la mascota</string>
+    <string name="select_image">Seleccionar Imagen</string>
+    <string name="save_pet">Guardar Mascota</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="logout">Cerrar Sesión</string>
+</resources>

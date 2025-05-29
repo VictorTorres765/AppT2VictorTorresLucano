@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="neutral_background">#F5F5F5</color>
+    <color name="neutral_variant10">#1C2526</color>
+    <color name="neutral_variant30">#4A6366</color>
+    <color name="neutral90">#E0E0E0</color>
+    <color name="primary40">#3F51B5</color>
+    <color name="edit_button_color">#42A5F5</color>
+    <color name="delete_button_color">#EF5350</color>
+</resources>

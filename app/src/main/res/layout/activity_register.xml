@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/gradient_background"
+    tools:context=".ui.auth.RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crear Nueva Cuenta"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/neutral_variant10"
+        android:layout_marginBottom="32dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:startIconDrawable="@drawable/ic_email"
+        app:hintTextColor="@color/neutral_variant30"
+        app:boxStrokeColor="@color/neutral_variant30"
+        android:hint="Correo Electrónico">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etEmailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/neutral_variant10"
+            android:background="@color/neutral90"
+            android:padding="16dp"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:startIconDrawable="@drawable/ic_lock"
+        app:endIconMode="password_toggle"
+        app:hintTextColor="@color/neutral_variant30"
+        app:boxStrokeColor="@color/neutral_variant30"
+        android:hint="Contraseña">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@color/neutral_variant10"
+            android:background="@color/neutral90"
+            android:padding="16dp"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilConfirmPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp"
+        app:startIconDrawable="@drawable/ic_lock"
+        app:endIconMode="password_toggle"
+        app:hintTextColor="@color/neutral_variant30"
+        app:boxStrokeColor="@color/neutral_variant30"
+        android:hint="Confirmar Contraseña">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etConfirmPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@color/neutral_variant10"
+            android:background="@color/neutral90"
+            android:padding="16dp"
+            android:singleLine="true" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarse"
+        android:backgroundTint="@color/primary40"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        app:cornerRadius="8dp" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Ya tienes una cuenta? Inicia sesión"
+        android:textColor="@color/primary40"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp"
+        android:height="48dp" />
+
+</LinearLayout>

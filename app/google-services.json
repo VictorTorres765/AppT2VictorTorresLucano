@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "459749301959",
+    "project_id": "fir-t2victor",
+    "storage_bucket": "fir-t2victor.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459749301959:android:cbcda48b47e7f687f6e8e2",
+        "android_client_info": {
+          "package_name": "com.torres.appt2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVRPeSPY5JB140xIDbxCM0TUHeetEL3LI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
