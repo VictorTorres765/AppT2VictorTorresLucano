@@ -13,7 +13,7 @@
         android:id="@+id/tvMensaje"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mis Mascotas"
+        android:text="@string/mis_mascotas"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@color/neutral_variant10"

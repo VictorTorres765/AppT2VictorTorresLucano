@@ -26,7 +26,7 @@ class MascotaRepository(
         return try {
             var petToSave = pet
             val currentUserId = FirebaseAuth.getInstance().currentUser?.uid
-                ?: throw Exception("User not authenticated")
+                ?: throw Exception("Usuario no autenticado")
             petToSave = pet.copy(ownerId = currentUserId)
 
             if (imageUri != null) {
